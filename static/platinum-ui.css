@@ -1,0 +1,406 @@
+.platinum-btn-success, .platinum-btn-error, .platinum-btn-warning, .platinum-btn-secondary, .platinum-btn-primary {
+  background-color: transparent;
+  padding: 8px;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.platinum-btn-primary {
+  border-color: #2196f3;
+  background-color: #2196f3;
+}
+
+.platinum-btn-primary:hover {
+  background-color: #0288d1;
+}
+
+.platinum-btn-secondary {
+  border-color: #9e9e9e;
+  background-color: #9e9e9e;
+}
+
+.platinum-btn-secondary:hover {
+  background-color: #757575;
+}
+
+.platinum-btn-warning {
+  border-color: #ff9800;
+  background-color: #ff9800;
+}
+
+.platinum-btn-warning:hover {
+  background-color: #f57c00;
+}
+
+.platinum-btn-error {
+  border-color: #f44336;
+  background-color: #f44336;
+}
+
+.platinum-btn-error:hover {
+  background-color: #d32f2f;
+}
+
+.platinum-btn-success {
+  border-color: #4caf50;
+  background-color: #4caf50;
+}
+
+.platinum-btn-success:hover {
+  background-color: #388e3c;
+}
+
+.platinum-input-success, .platinum-input-error, .platinum-input-warning, .platinum-input-secondary, .platinum-input-primary {
+  border-radius: 2px;
+  font-size: medium;
+  border-width: 1px;
+  font-family: "Roboto";
+  padding: 8px;
+}
+
+.platinum-input-primary {
+  border-color: #2196f3;
+}
+
+input.platinum-input-primary:focus {
+  outline: none !important;
+  border-color: #0288d1;
+  border-width: 2px;
+  box-shadow: 0 2px 1px 0 #0288d1, 0 2px 1px 0 #0288d1;
+}
+
+.platinum-input-secondary {
+  border-color: #9e9e9e;
+}
+
+input.platinum-input-secondary:focus {
+  outline: none !important;
+  border-color: #757575;
+  border-width: 2px;
+  box-shadow: 0 2px 1px 0 #757575, 0 2px 1px 0 #757575;
+}
+
+.platinum-input-warning {
+  border-color: #ff9800;
+}
+
+input.platinum-input-warning:focus {
+  outline: none !important;
+  border-color: #f57c00;
+  border-width: 2px;
+  box-shadow: 0 2px 1px 0 #f57c00, 0 2px 1px 0 #f57c00;
+}
+
+.platinum-input-error {
+  border-color: #f44336;
+}
+
+input.platinum-input-error:focus {
+  outline: none !important;
+  border-color: #d32f2f;
+  border-width: 2px;
+  box-shadow: 0 2px 1px 0 #d32f2f, 0 2px 1px 0 #d32f2f;
+}
+
+.platinum-input-success {
+  border-color: #4caf50;
+}
+
+input.platinum-input-success:focus {
+  outline: none !important;
+  border-color: #388e3c;
+  border-width: 2px;
+  box-shadow: 0 2px 1px 0 #388e3c, 0 2px 1px 0 #388e3c;
+}
+
+.platinum-navbar-dark, .platinum-navbar-primary {
+  padding: 10px;
+}
+
+.platinum-navbar-primary {
+  background-color: #2196f3;
+}
+
+.platinum-navbar-dark {
+  background-color: #212121;
+}
+
+.platinum-nav-item {
+  color: white;
+  font-size: large;
+  font-family: "Roboto";
+  text-decoration: none;
+  padding: 10px;
+}
+
+.platinum-nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.platinum-nav-item-selected {
+  font-weight: 600;
+}
+
+.platinum-linear-bg-vg {
+  background: #A88CFB;
+  background: -webkit-linear-gradient(top left, #A88CFB, #079262, 100%);
+  background: -moz-linear-gradient(top left, #A88CFB, #079262, 100%);
+  background: linear-gradient(to bottom right, #A88CFB, #079262, 100%);
+}
+
+.platinum-linear-bg-lb {
+  background: #5929EA;
+  background: -webkit-linear-gradient(top left, #5929EA, #5A88DF, 100%);
+  background: -moz-linear-gradient(top left, #5929EA, #5A88DF, 100%);
+  background: linear-gradient(to bottom right, #5929EA, #5A88DF, 100%);
+}
+
+.platinum-avatar {
+  border-radius: 50%;
+}
+
+.platinum-image-responsive {
+  height: auto;
+  max-width: 100%;
+}
+
+.platinum-flipable-image {
+  display: block;
+}
+
+.platinum-flipable-image-content {
+  display: none;
+}
+
+.platinum-flipable-image:hover > img {
+  animation-name: flip-animation;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.platinum-flipable-image:hover .platinum-flipable-image-content {
+  display: block;
+}
+
+@keyframes flip-animation {
+  0% {
+    transform: rotateY(180deg);
+  }
+  20% {
+    opacity: 0.7;
+  }
+  30% {
+    opacity: 0.6;
+  }
+  40% {
+    opacity: 0.5;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+.platinum-modal {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.platinum-modal-dialog-sm {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes modal-movement-top {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 2%);
+  }
+}
+@keyframes modal-movement-center {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 50%);
+  }
+}
+.platinum-modal-dialog-sm {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  left: 0;
+  right: 0;
+  min-height: 20%;
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+}
+
+.platinum-dialog-top {
+  animation: modal-movement-top 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.platinum-dialog-center {
+  animation: modal-movement-center 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.platinum-modal-dialog-fullscreen {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.platinum-common-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.platinum-common-form > * {
+  margin-bottom: 5px;
+}
+
+.platinum-card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px;
+}
+
+@media (min-width: 801px) {
+  .platinum-row {
+    flex-direction: row;
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .platinum-row {
+    flex-direction: column;
+    display: flex;
+  }
+}
+.platinum-row-right {
+  justify-content: flex-end;
+}
+
+.platinum-row-center {
+  justify-content: center;
+}
+
+.platinum-row-sb {
+  justify-content: space-between;
+}
+
+.platinum-full-width {
+  width: 100%;
+}
+
+.platinum-width-20 {
+  width: 20%;
+}
+
+.platinum-width-30 {
+  width: 30%;
+}
+
+.platinum-width-50 {
+  width: 50%;
+}
+
+.platinum-full-height {
+  height: 100%;
+}
+
+.platinum-pd5 {
+  padding: 5px;
+}
+
+.platinum-pd0 {
+  padding: 10px;
+}
+
+.platinum-pd15 {
+  padding: 15px;
+}
+
+.platinum-pd20 {
+  padding: 20px;
+}
+
+.platinum-mr-5 {
+  margin: 5px;
+}
+
+.platinum-mr-10 {
+  margin: 10px;
+}
+
+.platinum-mr-15 {
+  margin: 15px;
+}
+
+.platinum-mr-20 {
+  margin: 20px;
+}
+
+/* SWAMI KARUPPASWAMI THUNNAI */
+.platinum-text-white {
+  color: white;
+}
+
+.platinum-circular-loader {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-width: 12px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #3f51b5;
+  animation-name: platinum-circular-loader-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes platinum-circular-loader-animation {
+  20% {
+    border-color: #673ab7;
+    transform: scale(1.2);
+  }
+  40% {
+    border-color: #03a9f4;
+  }
+  60% {
+    border-color: #01579b;
+    transform: scale(1.3);
+  }
+  80% {
+    transform: scale(1.2);
+    border-color: #673ab7;
+  }
+  100% {
+    transform: scale(1);
+    border-color: #3f51b5;
+  }
+}
+
+/*# sourceMappingURL=platinum-ui.css.map */

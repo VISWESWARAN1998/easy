@@ -1,0 +1,35 @@
+<!-- SWAMI KARUPPASWAMI THUNNAI -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Uploader</title>
+    <style>
+        body, html {
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #1769aa;
+        }
+
+        h1, p {
+            font-family: "Roboto"
+        }
+    </style>
+    <link rel="stylesheet" href="static/platinum-ui.css" />
+</head>
+<body>
+    <div class="platinum-card platinum-pd20" style="background-color: white;">
+        <h1>File Uploader</h1>
+        <p>Choose your file below to upload!</p>
+        <form class="platinum-common-form" method="post" action="/upload" enctype="multipart/form-data">
+            <input type="file" name="file" class="platinum-input-primary" multiple/>
+            <button class="platinum-btn-primary">UPLOAD</button>
+        </form>
+    </div>
+</body>
+</html>
